@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 

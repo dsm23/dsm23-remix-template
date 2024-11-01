@@ -16,6 +16,7 @@ node_modules
 *.sw?
 
 # Cache Files
+.eslintcache
 .eslintmdcache
 .stylelintcache
 .prettiercache

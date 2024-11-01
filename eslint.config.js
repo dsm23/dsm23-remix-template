@@ -38,11 +38,11 @@ export default tseslint.config(
     rules: reactHooks.configs.recommended.rules,
   },
   {
-    files: ["!**/app/**", "**/app/stories/**"],
+    files: ["!**/src/**", "**/src/stories/**"],
     ...tseslint.configs.disableTypeChecked,
   },
   {
-    files: ["**/app/**/*.{js,mjs,cjs,ts,jsx,tsx}"],
+    files: ["**/src/**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     rules: {
       "@typescript-eslint/consistent-type-definitions": "off",
       "@typescript-eslint/consistent-type-imports": [
